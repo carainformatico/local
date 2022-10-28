@@ -1,7 +1,6 @@
 from django.shortcuts import render , redirect
 from reservas_app.models import reserva
 from reservas_app.forms import formreservas
-# Create your views here.
 
 def index(request):
     return render(request, 'index.html')
